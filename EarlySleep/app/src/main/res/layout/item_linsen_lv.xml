@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linshennsequence_rl"
+    android:paddingTop="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+   <TextView
+        android:gravity="center"
+       android:layout_marginLeft="10dp"
+       android:id="@+id/linshennsequence_tv"
+       android:layout_centerVertical="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="20sp"
+       android:textColor="@color/gray"
+       android:text="1"/>
+
+    <TextView
+        android:id="@+id/linshenname_tv"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="叶惠美"/>
+
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/linshenname_tv"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/textgray"
+        android:layout_marginLeft="45dp"/>
+    <ImageView
+        android:id="@+id/linshenname_iv"
+        android:layout_centerVertical="true"
+        android:layout_width="18dp"
+        android:src="@mipmap/choosei"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        />
+
+</RelativeLayout>
