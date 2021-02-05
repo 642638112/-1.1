@@ -27,7 +27,7 @@ import java.util.List;
 
 import butterknife.Bind;
 
-/**
+/**nice
  * Created by Administrator on 2016/7/10 0010.
  */
 public class ChooseLingshen extends BaseActivity {
